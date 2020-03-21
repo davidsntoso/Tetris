@@ -11,8 +11,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
-public class HowToPlayPanel extends JPanel {
+class BufferedImage(){
 	BufferedImage up;
 	BufferedImage down;
 	BufferedImage right;
@@ -20,7 +19,10 @@ public class HowToPlayPanel extends JPanel {
 	BufferedImage shift;
 	BufferedImage space;
 	BufferedImage icon;
-	BufferedImage icon1;
+	BufferedImage icon1
+}
+public class HowToPlayPanel extends JPanel {
+	BufferedImage();
 	int stat = 0;
 	JLabel lbl_title, lbl_up, lbl_down, lbl_right, lbl_left, lbl_shift, lbl_space, lbl_space2, back;
 
