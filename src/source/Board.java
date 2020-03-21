@@ -16,7 +16,7 @@ import javax.swing.Timer;
 
 public class Board extends JPanel implements KeyListener {
 	private BufferedImage blocks;
-	private BufferedImage bg;
+	private BufferedImage background;
 	private BufferedImage frame2;
 	// gameover new
 	private BufferedImage gO;
@@ -56,7 +56,7 @@ public class Board extends JPanel implements KeyListener {
 	public Board() {
 		setBackground(Color.getHSBColor(h, s, b));
 		try {
-			bg = ImageIO.read(Board.class.getResource("/totoro.png"));
+			background = ImageIO.read(Board.class.getResource("/totoro.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
